@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TDMST_SpoMSrchRef" targetNamespace="http://tempuri.org/TDMST_SpoMSrchRef.xsd" xmlns:mstns="http://tempuri.org/TDMST_SpoMSrchRef.xsd" xmlns="http://tempuri.org/TDMST_SpoMSrchRef.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TDMST_SpoMSrchRef" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TDMST_SpoMSrchRef" msprop:Generator_UserDSName="TDMST_SpoMSrchRef">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SpoM" msprop:Generator_TableClassName="SpoMDataTable" msprop:Generator_TableVarName="tableSpoM" msprop:Generator_RowChangedName="SpoMRowChanged" msprop:Generator_TablePropName="SpoM" msprop:Generator_RowDeletingName="SpoMRowDeleting" msprop:Generator_RowChangingName="SpoMRowChanging" msprop:Generator_RowEvHandlerName="SpoMRowChangeEventHandler" msprop:Generator_RowDeletedName="SpoMRowDeleted" msprop:Generator_RowClassName="SpoMRow" msprop:Generator_UserTableName="SpoM" msprop:Generator_RowEvArgName="SpoMRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ENTCD" msprop:Generator_ColumnVarNameInTable="columnENTCD" msprop:Generator_ColumnPropNameInRow="ENTCD" msprop:Generator_ColumnPropNameInTable="ENTCDColumn" msprop:Generator_UserColumnName="ENTCD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="COCD" msprop:Generator_ColumnVarNameInTable="columnCOCD" msprop:Generator_ColumnPropNameInRow="COCD" msprop:Generator_ColumnPropNameInTable="COCDColumn" msprop:Generator_UserColumnName="COCD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SPOCD" msprop:Generator_ColumnVarNameInTable="columnSPOCD" msprop:Generator_ColumnPropNameInRow="SPOCD" msprop:Generator_ColumnPropNameInTable="SPOCDColumn" msprop:Generator_UserColumnName="SPOCD" type="xs:string" minOccurs="0" />
+              <xs:element name="SPONM" msprop:Generator_ColumnVarNameInTable="columnSPONM" msprop:Generator_ColumnPropNameInRow="SPONM" msprop:Generator_ColumnPropNameInTable="SPONMColumn" msprop:Generator_UserColumnName="SPONM" type="xs:string" minOccurs="0" />
+              <xs:element name="SPONMSUB" msprop:Generator_ColumnVarNameInTable="columnSPONMSUB" msprop:Generator_ColumnPropNameInRow="SPONMSUB" msprop:Generator_ColumnPropNameInTable="SPONMSUBColumn" msprop:Generator_UserColumnName="SPONMSUB" type="xs:string" minOccurs="0" />
+              <xs:element name="SPONMABR" msprop:Generator_ColumnVarNameInTable="columnSPONMABR" msprop:Generator_ColumnPropNameInRow="SPONMABR" msprop:Generator_ColumnPropNameInTable="SPONMABRColumn" msprop:Generator_UserColumnName="SPONMABR" type="xs:string" minOccurs="0" />
+              <xs:element name="SPONMABRSUB" msprop:Generator_ColumnVarNameInTable="columnSPONMABRSUB" msprop:Generator_ColumnPropNameInRow="SPONMABRSUB" msprop:Generator_ColumnPropNameInTable="SPONMABRSUBColumn" msprop:Generator_UserColumnName="SPONMABRSUB" type="xs:string" minOccurs="0" />
+              <xs:element name="DSPORD" msprop:Generator_ColumnVarNameInTable="columnDSPORD" msprop:Generator_ColumnPropNameInRow="DSPORD" msprop:Generator_ColumnPropNameInTable="DSPORDColumn" msprop:Generator_UserColumnName="DSPORD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NOUSEST" msprop:Generator_ColumnVarNameInTable="columnNOUSEST" msprop:Generator_ColumnPropNameInRow="NOUSEST" msprop:Generator_ColumnPropNameInTable="NOUSESTColumn" msprop:Generator_UserColumnName="NOUSEST" type="xs:string" minOccurs="0" />
+              <xs:element name="CRTUSRID" msprop:Generator_ColumnVarNameInTable="columnCRTUSRID" msprop:Generator_ColumnPropNameInRow="CRTUSRID" msprop:Generator_ColumnPropNameInTable="CRTUSRIDColumn" msprop:Generator_UserColumnName="CRTUSRID" type="xs:string" minOccurs="0" />
+              <xs:element name="CRTDT" msprop:Generator_ColumnVarNameInTable="columnCRTDT" msprop:Generator_ColumnPropNameInRow="CRTDT" msprop:Generator_ColumnPropNameInTable="CRTDTColumn" msprop:Generator_UserColumnName="CRTDT" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UPDATEDBY" msprop:Generator_ColumnVarNameInTable="columnUPDATEDBY" msprop:Generator_ColumnPropNameInRow="UPDATEDBY" msprop:Generator_ColumnPropNameInTable="UPDATEDBYColumn" msprop:Generator_UserColumnName="UPDATEDBY" type="xs:string" minOccurs="0" />
+              <xs:element name="UPDATEDON" msprop:Generator_ColumnVarNameInTable="columnUPDATEDON" msprop:Generator_ColumnPropNameInRow="UPDATEDON" msprop:Generator_ColumnPropNameInTable="UPDATEDONColumn" msprop:Generator_UserColumnName="UPDATEDON" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="APRUSRID" msprop:Generator_ColumnVarNameInTable="columnAPRUSRID" msprop:Generator_ColumnPropNameInRow="APRUSRID" msprop:Generator_ColumnPropNameInTable="APRUSRIDColumn" msprop:Generator_UserColumnName="APRUSRID" type="xs:string" minOccurs="0" />
+              <xs:element name="APRACTDT" msprop:Generator_ColumnVarNameInTable="columnAPRACTDT" msprop:Generator_ColumnPropNameInRow="APRACTDT" msprop:Generator_ColumnPropNameInTable="APRACTDTColumn" msprop:Generator_UserColumnName="APRACTDT" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="APRST" msprop:Generator_ColumnVarNameInTable="columnAPRST" msprop:Generator_ColumnPropNameInRow="APRST" msprop:Generator_ColumnPropNameInTable="APRSTColumn" msprop:Generator_UserColumnName="APRST" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
